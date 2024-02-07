@@ -1,0 +1,10 @@
+Unit]
+Description=Backup service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mybackup.sh
+User=#USER#
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2 @@
+script2.sh usr/bin
+server.conf etc/openvpn/server

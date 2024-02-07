@@ -1,0 +1,11 @@
+#!/bin/sh
+req=/usr/bin/req.sh
+
+
+if [ -f $req]
+then
+echo "Исполнительный файл для запроса находится в usr/bin/req.sh"
+else
+echo "Нет исполнительного файла!"
+exit
+fi

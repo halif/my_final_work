@@ -1,0 +1,16 @@
+Source: backup
+Section: unknown
+Priority: optional
+Maintainer: ildar <ildar@local>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/backup
+#Vcs-Git: https://salsa.debian.org/debian/backup.git
+Rules-Requires-Root: no
+
+Package: backup
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

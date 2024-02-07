@@ -1,0 +1,10 @@
+[Unit]
+Description=my backup
+
+[Timer]
+OnCalendar=*-*-* 01:00:00
+Unit=backup.service
+
+[Install]
+WantedBy=multi-user.target
+
